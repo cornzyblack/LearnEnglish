@@ -34,4 +34,8 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+
+    <!-- Background color for the Animals and Insects category -->
+    <color name="category_animals_insects">#5D102B</color>
+
 </resources>
