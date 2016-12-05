@@ -29,13 +29,16 @@
     <!-- Background color for the family members category -->
     <color name="category_family">#379237</color>
 
-    <!-- Background color for the colors category -->
-    <color name="category_colors">#8800A0</color>
+    <!-- Background color for body parts -->
+    <color name="category_body_parts">#8800A0</color>
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
 
-    <!-- Background color for the Animals and Insects category -->
-    <color name="category_animals_insects">#5D102B</color>
+    <!-- Background color for the AnimalsActivity and Insects category -->
+    <color name="category_animals">#5D102B</color>
+
+    <!-- Background color for Salutations and replies -->
+    <color name="category_salutations_and_replies">#1E2D5D</color>
 
 </resources>

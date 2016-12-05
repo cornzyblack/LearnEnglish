@@ -18,6 +18,22 @@
         <activity
             android:name=".NumbersActivity"
             android:label="@string/category_numbers" />
+        <activity
+            android:name=".SalutationsAndReplyActivity"
+            android:label="@string/category_salutations_and_replies" />
+        <activity
+            android:name=".PartsOfTheBodyActivity"
+            android:label="@string/category_body_parts" />
+        <activity
+            android:name=".AnimalsActivity"
+            android:label="@string/category_animals" />
+        <activity
+            android:name=".FamilyMembersActivity"
+            android:label="@string/category_family" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="@string/category_phrases" />
+
     </application>
 
 </manifest>
