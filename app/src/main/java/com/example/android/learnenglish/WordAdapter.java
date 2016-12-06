@@ -2,6 +2,7 @@ package com.example.android.learnenglish;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,9 @@ import java.util.ArrayList;
  */
 
 public class WordAdapter extends ArrayAdapter<Word> {
+    /**Resource ID fot the background color for the list of words */
+    private int mColorResourceId;
+
     /**Custom constructor
     *The context is used to inflate the layout file, and the list of data
      * we want to populate into the lists.
@@ -23,8 +27,9 @@ public class WordAdapter extends ArrayAdapter<Word> {
      * @param context The current context. Used to inflate the layout file
      * @param words A list of word objects to display in a list
      */
-    public WordAdapter(Activity context, ArrayList<Word>words){
+    public WordAdapter(Activity context, ArrayList<Word>words, int colorResourceId){
         super(context, 0, words);
+        mColorResourceId = colorResourceId;
     }
 
     @NonNull
@@ -61,6 +66,12 @@ public class WordAdapter extends ArrayAdapter<Word> {
         else
         //Otherwise hide the Image View
             imageView.setVisibility(View.GONE);
+
+        //Set theme Color for the lst Item
+        View textContainer = listItemView.findViewById(R.id.text_container);
+        //find the Color
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        textContainer.setBackgroundColor(color);
 
         return listItemView;
     }
