@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         TextView salutationsAndReply = (TextView) findViewById(R.id.salutations_and_replies);
 
         //Set a click listener on that view

@@ -18,16 +18,16 @@ public class PhrasesActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word("What is your name?", "Ke sunã we yo?"));
-        words.add(new Word("Where are you going?", "ba we èlo?"));
+        words.add(new Word("Where are you going?", "Ba we èlo?"));
         words.add(new Word("My name is Aisha", "Sunã mi ye Aisha"));
         words.add(new Word("I am coming", "mi èbě"));
         words.add(new Word("Where is Aisha?", "ba Aisha da o?"));
-        words.add(new Word("I will come", "mi a bé"));
-        words.add(new Word("Are you coming?", "mi da bé?"));
-        words.add(new Word("come", "bé"));
-        words.add(new Word("go", "lo"));
-        words.add(new Word("Did you see him ?", "wo le u yè bô?"));
-        words.add(new Word("Come and eat", "bé gi ejè"));
+        words.add(new Word("I will come", "Mi a bé"));
+        words.add(new Word("Are you coming?", "Mi da bé?"));
+        words.add(new Word("Come", "Bé"));
+        words.add(new Word("Go", "Lo"));
+        words.add(new Word("Did you see him ?", "Wo le u yè bô?"));
+        words.add(new Word("Come and eat", "Bé gi ejè"));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

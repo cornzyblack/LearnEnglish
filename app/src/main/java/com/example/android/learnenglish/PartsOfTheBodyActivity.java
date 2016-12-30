@@ -17,11 +17,11 @@ public class PartsOfTheBodyActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("ear", "tukpa", R.drawable.ear));
-        words.add(new Word("eye", "eyé", R.drawable.eye));
-        words.add(new Word("hand", "egwa", R.drawable.hand));
-        words.add(new Word("mouth", "misun", R.drawable.mouth));
-        words.add(new Word("nose", "eyè", R.drawable.nose));
+        words.add(new Word("Ear", "Tukpa", R.drawable.ear));
+        words.add(new Word("Eye", "Eyé", R.drawable.eye));
+        words.add(new Word("Hand", "Egwa", R.drawable.hand));
+        words.add(new Word("Mouth", "Misun", R.drawable.mouth));
+        words.add(new Word("Nose", "Eyè", R.drawable.nose));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

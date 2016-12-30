@@ -21,12 +21,12 @@ public class SalutationsAndReplyActivity extends AppCompatActivity {
         words.add(new Word("Good Morning", "Okú bé lázìn nyi"));
         words.add(new Word("Good Afternoon", "Okú bé yigídí nyi"));
         words.add(new Word("Good Evening", "Okú bé lozùn nyi"));
-        words.add(new Word("Hail", "Okù"));
+        words.add(new Word("Hail", "Okú"));
         words.add(new Word("How are you?", "Ke wo na"));
         words.add(new Word("I thank God", "Mi jin yébo sòkò"));
         words.add(new Word("Welcome", "Márába"));
         words.add(new Word("Well", "Láfíyá"));
-        words.add(new Word("Alright", "tò"));
+        words.add(new Word("Alright", "Tò"));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

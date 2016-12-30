@@ -18,16 +18,16 @@ public class AnimalsActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("camel", "ràkun", R.drawable.camel));
-        words.add(new Word("cat", "dàngi", R.drawable.cat));
-        words.add(new Word("chicken", "bise", R.drawable.chicken));
-        words.add(new Word("cow", "nankó", R.drawable.cow));
-        words.add(new Word("dog", "esìgi", R.drawable.dog));
-        words.add(new Word("fish", "ègâ", R.drawable.fish));
-        words.add(new Word("horse", "dòkò", R.drawable.horse));
-        words.add(new Word("lizard", "gbàrà", R.drawable.lizard));
-        words.add(new Word("scorpion", "kínkèrè", R.drawable.scorpion));
-        words.add(new Word("snake", "ewa", R.drawable.snake));
+        words.add(new Word("Camel", "Ràkun", R.drawable.camel));
+        words.add(new Word("Cat", "Dàngi", R.drawable.cat));
+        words.add(new Word("Chicken", "Bise", R.drawable.chicken));
+        words.add(new Word("Cow", "Nankó", R.drawable.cow));
+        words.add(new Word("Dog", "Esìgi", R.drawable.dog));
+        words.add(new Word("Fish", "Ègâ", R.drawable.fish));
+        words.add(new Word("Horse", "Dòkò", R.drawable.horse));
+        words.add(new Word("Lizard", "Gbàrà", R.drawable.lizard));
+        words.add(new Word("Scorpion", "Kínkèrè", R.drawable.scorpion));
+        words.add(new Word("Snake", "Ewa", R.drawable.snake));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

@@ -17,22 +17,38 @@
         </activity>
         <activity
             android:name=".NumbersActivity"
-            android:label="@string/category_numbers" />
+            android:label="@string/category_numbers"
+            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            />
         <activity
             android:name=".SalutationsAndReplyActivity"
-            android:label="@string/category_salutations_and_replies" />
+            android:label="@string/category_salutations_and_replies"
+            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            />
         <activity
             android:name=".PartsOfTheBodyActivity"
-            android:label="@string/category_body_parts" />
+            android:label="@string/category_body_parts"
+            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            />
         <activity
             android:name=".AnimalsActivity"
-            android:label="@string/category_animals" />
+            android:label="@string/category_animals"
+            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            />
         <activity
             android:name=".FamilyMembersActivity"
-            android:label="@string/category_family" />
+            android:label="@string/category_family"
+            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            />
         <activity
             android:name=".PhrasesActivity"
-            android:label="@string/category_phrases" />
+            android:label="@string/category_phrases"
+            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            />
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.learnenglish.MainActivity" />
 
     </application>
 
