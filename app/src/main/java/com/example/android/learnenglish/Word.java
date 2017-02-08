@@ -10,18 +10,21 @@ package com.example.android.learnenglish;
  */
 public class Word {
     /**
+     * Constant value that represents no image was provided for this word
+     */
+    private static final int NO_IMAGE_PROVIDED = -1;
+    /**
      * Default translation for the word
      */
     private String mDefaultTranslation;
-
     /**
      * nupe translation for the word
      */
     private String mNupeTranslation;
-
-    /**Constant value that represents no image was provided for this word*/
-    private static final int NO_IMAGE_PROVIDED = -1;
-
+    /**
+     * nupe translation for the word
+     */
+    private int mAudioResourceId;
     /**
      * Image Resource Id for the Word
      */
@@ -29,24 +32,29 @@ public class Word {
 
     /**
      * @param defaultTranslation is the word in a language that the user is
-     *                           already familiar with (such as English
-     * @param nupeTranslation   is the word for the Nupe language
+     *                           already familiar with (such as English)
+     * @param nupeTranslation    is the word for the Nupe language
+     *
+     * @param audioResourceId    is the recorded audio file ID for the word or sentence
      */
-    public Word(String defaultTranslation, String nupeTranslation) {
+    public Word(String defaultTranslation, String nupeTranslation, int audioResourceId) {
         this.mDefaultTranslation = defaultTranslation;
         this.mNupeTranslation = nupeTranslation;
+        this.mAudioResourceId = audioResourceId;
     }
 
     /**
      * @param defaultTranslation is the word in a language that the user is
-     *                           already familiar with (such as English
-     * @param nupeTranslation   is the word for the nupe language
-     *
-     * @param imageResourceId is the Image resource ID for the word
+     *                           already familiar with (such as English)
+     * @param nupeTranslation    is the word for the nupe language
+     * @param imageResourceId    is the Image resource ID for the word
+     * @param audioResourceId    is the recorded audio file ID for the word or sentence
      */
-    public Word(String defaultTranslation, String nupeTranslation, int imageResourceId) {
-        this(defaultTranslation, nupeTranslation);
+    public Word(String defaultTranslation, String nupeTranslation, int imageResourceId, int audioResourceId) {
+        this.mDefaultTranslation = defaultTranslation;
+        this.mNupeTranslation = nupeTranslation;
         this.mImageResourceId = imageResourceId;
+        this.mAudioResourceId = audioResourceId;
     }
 
 
@@ -71,12 +79,22 @@ public class Word {
     /**
      * Return the imgae resource ID of the word
      */
-    public int getImageResourceId(){return mImageResourceId;}
+    public int getImageResourceId() {
+        return mImageResourceId;
+    }
 
     /**
      * Returns whether or not there is an image for this word.
      */
-    public boolean hasImage(){
+    public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
+
+    /**
+     * Returns audio for the word or sentence.
+     */
+    public int getAudioResourceId() {
+        return mAudioResourceId;
+    }
+
 }

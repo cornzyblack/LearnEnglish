@@ -37,4 +37,7 @@
     <!-- Category name for the vocabulary words for salutations and replies [CHAR LIMIT=20] -->
     <string name="category_salutations_and_replies">Salutations and replies</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
