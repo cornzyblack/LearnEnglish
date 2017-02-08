@@ -38,17 +38,17 @@
         <activity
             android:name=".FamilyMembersActivity"
             android:label="@string/category_family"
-            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            android:parentActivityName="com.example.android.learnnupe.MainActivity"
             />
         <activity
             android:name=".PhrasesActivity"
             android:label="@string/category_phrases"
-            android:parentActivityName="com.example.android.learnenglish.MainActivity"
+            android:parentActivityName="com.example.android.learnnupe.MainActivity"
             />
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.learnenglish.MainActivity" />
+                android:value="com.example.android.learnnupe.MainActivity" />
 
     </application>
 

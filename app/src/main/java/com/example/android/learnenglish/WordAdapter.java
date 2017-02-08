@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static android.view.View.GONE;
+
 /**
  * Created by Precious on 30/10/2016.
  */
@@ -65,7 +67,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         }
         else
         //Otherwise hide the Image View
-            imageView.setVisibility(View.GONE);
+            imageView.setVisibility(GONE);
 
         //Set theme Color for the lst Item
         View textContainer = listItemView.findViewById(R.id.text_container);
