@@ -34,16 +34,16 @@ public class AnimalsActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Camel", "Ràkun", R.drawable.camel, R.raw.cupspoon));
-        words.add(new Word("Cat", "Dàngi", R.drawable.cat, R.raw.cupspoon));
-        words.add(new Word("Chicken", "Bise", R.drawable.chicken, R.raw.cupspoon));
-        words.add(new Word("Cow", "Nankó", R.drawable.cow, R.raw.cupspoon));
-        words.add(new Word("Dog", "Esìgi", R.drawable.dog, R.raw.cupspoon));
-        words.add(new Word("Fish", "Ègâ", R.drawable.fish, R.raw.cupspoon));
-        words.add(new Word("Horse", "Dòkò", R.drawable.horse, R.raw.cupspoon));
-        words.add(new Word("Lizard", "Gbàrà", R.drawable.lizard, R.raw.cupspoon));
-        words.add(new Word("Scorpion", "Kínkèrè", R.drawable.scorpion, R.raw.cupspoon));
-        words.add(new Word("Snake", "Ewa", R.drawable.snake, R.raw.cupspoon));
+        words.add(new Word("Camel", "Ràkun", R.drawable.camel, R.raw.camel));
+        words.add(new Word("Cat", "Dàngi", R.drawable.cat, R.raw.cat));
+        words.add(new Word("Chicken", "Bise", R.drawable.chicken, R.raw.chicken));
+        words.add(new Word("Cow", "Nankó", R.drawable.cow, R.raw.cow));
+        words.add(new Word("Dog", "Esìgi", R.drawable.dog, R.raw.dog));
+        words.add(new Word("Fish", "Ègâ", R.drawable.fish, R.raw.fish));
+        words.add(new Word("Horse", "Dòkò", R.drawable.horse, R.raw.horse));
+        words.add(new Word("Lizard", "Gbàrà", R.drawable.lizard, R.raw.lizard));
+        words.add(new Word("Scorpion", "Kínkèrè", R.drawable.scorpion, R.raw.scorpion));
+        words.add(new Word("Snake", "Ewa", R.drawable.snake, R.raw.snake));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

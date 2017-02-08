@@ -34,17 +34,17 @@ public class PhrasesActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("What is your name?", "Ke sunã we yo?", R.raw.cupspoon));
-        words.add(new Word("Where are you going?", "Ba we èlo?", R.raw.cupspoon));
-        words.add(new Word("My name is Aisha", "Sunã mi ye Aisha", R.raw.cupspoon));
-        words.add(new Word("I am coming", "mi èbě", R.raw.cupspoon));
-        words.add(new Word("Where is Aisha?", "ba Aisha da o?", R.raw.cupspoon));
-        words.add(new Word("I will come", "Mi a bé", R.raw.cupspoon));
-        words.add(new Word("Are you coming?", "Mi da bé?", R.raw.cupspoon));
-        words.add(new Word("Come", "Bé", R.raw.cupspoon));
-        words.add(new Word("Go", "Lo", R.raw.cupspoon));
-        words.add(new Word("Did you see him ?", "Wo le u yè bô?", R.raw.cupspoon));
-        words.add(new Word("Come and eat", "Bé gi ejè", R.raw.cupspoon));
+        words.add(new Word("What is your name?", "Ke sunã we yo?", R.raw.what_is_your_name));
+        words.add(new Word("Where are you going?", "Ba we èlo?", R.raw.where_are_you_going));
+        words.add(new Word("My name is Aisha", "Sunã mi ye Aisha", R.raw.my_name_is_aisha));
+        words.add(new Word("I am coming", "Mi èbě", R.raw.i_am_coming));
+        words.add(new Word("Where is Aisha?", "Ba Aisha da o?", R.raw.where_is_aisha));
+        words.add(new Word("I will come", "Mi a bé", R.raw.i_will_come));
+        words.add(new Word("Are you coming?", "Mi da bé?", R.raw.are_you_coming));
+        words.add(new Word("Come", "Bé", R.raw.come));
+        words.add(new Word("Go", "Lo", R.raw.go));
+        words.add(new Word("Did you see him ?", "Wo le u yè bô?", R.raw.did_you_see_him));
+        words.add(new Word("Come and eat", "Bé gi ejè", R.raw.come_and_eat));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

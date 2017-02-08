@@ -34,12 +34,12 @@ public class FamilyMembersActivity extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Father", "Baba", R.drawable.family_father, R.raw.cupspoon));
-        words.add(new Word("Mother", "Nna", R.drawable.family_mother, R.raw.cupspoon));
-        words.add(new Word("Brother", "Yaya", R.drawable.family_younger_brother, R.raw.cupspoon));
-        words.add(new Word("Sister", "Yaya", R.drawable.family_younger_sister, R.raw.cupspoon));
-        words.add(new Word("Grandfather", "Ndãkó", R.drawable.family_grandfather, R.raw.cupspoon));
-        words.add(new Word("Grandmother", "Nnãkó", R.drawable.family_grandmother, R.raw.cupspoon));
+        words.add(new Word("Father", "Baba", R.drawable.family_father, R.raw.father));
+        words.add(new Word("Mother", "Nna", R.drawable.family_mother, R.raw.mother));
+        words.add(new Word("Brother", "Yaya", R.drawable.family_younger_brother, R.raw.brother));
+        words.add(new Word("Sister", "Yaya", R.drawable.family_younger_sister, R.raw.sister));
+        words.add(new Word("Grandfather", "Ndãkó", R.drawable.family_grandfather, R.raw.grandfather));
+        words.add(new Word("Grandmother", "Nnãkó", R.drawable.family_grandmother, R.raw.grandmother));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

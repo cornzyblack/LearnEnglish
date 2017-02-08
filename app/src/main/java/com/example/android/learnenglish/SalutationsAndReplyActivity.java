@@ -34,15 +34,15 @@ public class SalutationsAndReplyActivity extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Good Morning", "Okú bé lázìn nyi", R.raw.cupspoon));
-        words.add(new Word("Good Afternoon", "Okú bé yigídí nyi", R.raw.cupspoon));
-        words.add(new Word("Good Evening", "Okú bé lozùn nyi", R.raw.cupspoon));
-        words.add(new Word("Hail", "Okú", R.raw.cupspoon));
-        words.add(new Word("How are you?", "Ke wo na", R.raw.cupspoon));
-        words.add(new Word("I thank God", "Mi jin yébo sòkò", R.raw.cupspoon));
-        words.add(new Word("Welcome", "Márába", R.raw.cupspoon));
-        words.add(new Word("Well", "Láfíyá", R.raw.cupspoon));
-        words.add(new Word("Alright", "Tò", R.raw.cupspoon));
+        words.add(new Word("Good Morning", "Okú bé lázìn nyi", R.raw.goodmorning));
+        words.add(new Word("Good Afternoon", "Okú bé yigídí nyi", R.raw.goodafternoon));
+        words.add(new Word("Good Evening", "Okú bé lozùn nyi", R.raw.goodevening));
+        words.add(new Word("Hail", "Okú", R.raw.hail));
+        words.add(new Word("How are you?", "Ke wo na", R.raw.how_are_you));
+        words.add(new Word("I thank God", "Mi jin yébo sòkò", R.raw.we_thank_god));
+        words.add(new Word("Welcome", "Márába", R.raw.welcome));
+        words.add(new Word("Well", "Láfíyá", R.raw.well));
+        words.add(new Word("Alright", "Tò", R.raw.alright));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

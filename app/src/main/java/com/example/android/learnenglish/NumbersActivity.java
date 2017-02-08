@@ -33,16 +33,16 @@ public class NumbersActivity extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("One", "Ení", R.drawable.number_one, R.raw.cupspoon));
-        words.add(new Word("Two", "Gúba", R.drawable.number_two, R.raw.cupspoon));
-        words.add(new Word("Three", "Gútá", R.drawable.number_three, R.raw.cupspoon));
-        words.add(new Word("Four", "Gúnni", R.drawable.number_four, R.raw.cupspoon));
-        words.add(new Word("Five", "Gútsun", R.drawable.number_five, R.raw.cupspoon));
-        words.add(new Word("Six", "Gútswànyì", R.drawable.number_six, R.raw.cupspoon));
-        words.add(new Word("Seven", "Gútwàtà", R.drawable.number_seven, R.raw.cupspoon));
-        words.add(new Word("Eight", "Gútotá", R.drawable.number_eight, R.raw.cupspoon));
-        words.add(new Word("Nine", "Gútwani", R.drawable.number_nine, R.raw.cupspoon));
-        words.add(new Word("Ten", "Gúwo", R.drawable.number_ten, R.raw.cupspoon));
+        words.add(new Word("One", "Ení", R.drawable.number_one, R.raw.number_one));
+        words.add(new Word("Two", "Gúba", R.drawable.number_two, R.raw.number_two));
+        words.add(new Word("Three", "Gútá", R.drawable.number_three, R.raw.number_three));
+        words.add(new Word("Four", "Gúnni", R.drawable.number_four, R.raw.number_four));
+        words.add(new Word("Five", "Gútsun", R.drawable.number_five, R.raw.number_five));
+        words.add(new Word("Six", "Gútswànyì", R.drawable.number_six, R.raw.number_six));
+        words.add(new Word("Seven", "Gútwàtà", R.drawable.number_seven, R.raw.number_seven));
+        words.add(new Word("Eight", "Gútotá", R.drawable.number_eight, R.raw.number_eight));
+        words.add(new Word("Nine", "Gútwani", R.drawable.number_nine, R.raw.number_nine));
+        words.add(new Word("Ten", "Gúwo", R.drawable.number_ten, R.raw.number_ten));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
